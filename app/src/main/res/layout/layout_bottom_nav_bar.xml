@@ -28,7 +28,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:id="@+id/llDashboard"
+            android:id="@+id/llSocial"
             android:clickable="true"
             android:orientation="vertical"
             android:focusable="true">
@@ -59,7 +59,7 @@
            android:layout_height="match_parent"
            android:layout_weight="1"
            android:gravity="center"
-           android:id="@+id/llLesson"
+           android:id="@+id/llMessage"
            android:clickable="true"
            android:orientation="vertical"
            android:focusable="true">
@@ -90,7 +90,7 @@
            android:layout_height="match_parent"
            android:layout_weight="1"
            android:gravity="center"
-           android:id="@+id/llSchool"
+           android:id="@+id/llBooking"
            android:clickable="true"
            android:orientation="vertical"
            android:focusable="true">
@@ -120,7 +120,7 @@
            android:layout_height="match_parent"
            android:layout_weight="1"
            android:gravity="center"
-           android:id="@+id/llSchedule"
+           android:id="@+id/llStore"
            android:clickable="true"
            android:orientation="vertical"
            android:focusable="true">
@@ -150,7 +150,7 @@
            android:layout_height="match_parent"
            android:layout_weight="1"
            android:gravity="center"
-           android:id="@+id/llAnalysis"
+           android:id="@+id/llHelpDesk"
            android:clickable="true"
            android:orientation="vertical"
            android:focusable="true">

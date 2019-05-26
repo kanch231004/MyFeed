@@ -29,7 +29,6 @@
         android:paddingEnd="20dp"
         android:padding="4dp"
         android:layout_marginStart="64dp"
-
         android:drawableStart="@drawable/ic_location_on_black_24dp"
         android:textColor="@color/colorWhite"/>
 

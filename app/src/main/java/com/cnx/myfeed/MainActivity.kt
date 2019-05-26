@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         scaleAnim = AnimationUtils.loadAnimation(this, R.anim.scale_anim_date)
         shrinkAnim = AnimationUtils.loadAnimation(this,R.anim.shrink_anim)
         scaleAnim!!.duration = 500
@@ -67,20 +68,20 @@ class MainActivity : AppCompatActivity() {
     private fun initTabItemListeners() {
 
 
-        llDashboard.setOnClickListener { setCurrentFragmentNumber(0) }
+        llSocial.setOnClickListener { setCurrentFragmentNumber(0) }
 
-        llLesson.setOnClickListener {
+        llMessage.setOnClickListener {
             setCurrentFragmentNumber(1)
         }
-        llSchool.setOnClickListener {
+        llBooking.setOnClickListener {
             setCurrentFragmentNumber(2)
         }
 
-        llSchedule.setOnClickListener {
+        llStore.setOnClickListener {
             setCurrentFragmentNumber(3)
         }
 
-        llAnalysis.setOnClickListener {
+        llHelpDesk.setOnClickListener {
             setCurrentFragmentNumber(4)
         }
 
