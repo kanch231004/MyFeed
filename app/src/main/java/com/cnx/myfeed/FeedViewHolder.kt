@@ -21,6 +21,9 @@ class FeedViewHolder(itemView : View) : RecyclerView.ViewHolder( itemView ) {
             tvOrganisation.text = feed?.creator?.company
             tvTime.text = getTimeStamp(feed?.article?.timelog ?: 0L)
             Glide.with(itemView).load(feed?.creator?.imageLoc).placeholder(R.drawable.image_dummy).into(civProfile)
+            Glide.with(itemView).load(feed?.article?.imageLoc).into(ivArticle)
+
+            tvDescription.setOnClickListener { tvDescription.maxLines = Int.MAX_VALUE }
 
 
         }
