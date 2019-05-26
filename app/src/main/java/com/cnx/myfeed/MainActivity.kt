@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
 
     private var bottomBarImageViews: Array<ImageView> = emptyArray()
 
-    private var selectedResources  = listOf<Int>(R.drawable.ic_social,R.drawable.ic_message,R.drawable.ic_message,R.drawable.ic_message,R.drawable.ic_message)
-    private var unSelectedResources  = listOf<Int>(R.drawable.ic_social_unselected,R.drawable.ic_message_unselected,R.drawable.ic_message_unselected,R.drawable.ic_message_unselected,R.drawable.ic_message_unselected)
+    private var selectedResources  = listOf<Int>(R.drawable.ic_social,R.drawable.ic_message,R.drawable.ic_booking_selected,R.drawable.ic_store_selected,R.drawable.ic_helpdesk_selected)
+    private var unSelectedResources  = listOf<Int>(R.drawable.ic_social_unselected,R.drawable.ic_message_unselected,R.drawable.ic_booking,R.drawable.ic_store,R.drawable.ic_helpdesk)
     private var selectedFragment = Array(5) { false }
     private var currentFragmentNo = -1
     private var lastSelectedFragment = -1

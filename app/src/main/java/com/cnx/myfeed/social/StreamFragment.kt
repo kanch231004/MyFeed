@@ -19,6 +19,8 @@ import kotlinx.android.synthetic.main.fragment_stream.*
 
 class StreamFragment : Fragment() {
 
+    val feedAdapter = FeedAdapter()
+
     private val viewModel: MyFeedViewModel by viewModels {
         InjectorUtils.provideFeedViewModelFactory(context!!)
     }
@@ -30,15 +32,21 @@ class StreamFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        Log.d("onCreateVeiw Stream","called")
 
-        Log.d("oncreateView","called")
+        val view =inflater.inflate(R.layout.fragment_stream, container, false)
 
-        return inflater.inflate(R.layout.fragment_stream, container, false)
+
+
+        return view
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         Log.d("onViewCreated","called")
+        rvFeed.layoutManager = LinearLayoutManager(context!!)
+        rvFeed.adapter = feedAdapter
+
 
 
     }
@@ -49,7 +57,6 @@ class StreamFragment : Fragment() {
         Log.d("onActivityCreated","called")
 
 
-
     }
 
     override fun onResume() {
@@ -58,12 +65,11 @@ class StreamFragment : Fragment() {
         viewModel.feeds.observe(this, Observer { feeds ->
 
             Log.d("mainactivity","${feeds.loadedCount}")
-            val feedAdapter = FeedAdapter()
 
-            rvFeed.layoutManager = LinearLayoutManager(context!!)
-            rvFeed.adapter = feedAdapter
             feedAdapter.submitList(feeds)
         })
+
+        feedAdapter.notifyDataSetChanged()
     }
 
 
