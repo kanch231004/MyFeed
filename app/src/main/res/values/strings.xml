@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFeed</string>
+    <string name="dummy_string">We are conduction a walk-in drive for freshers on Saturday,
+        May 11 at RMZ - Porur for BE -CSCBTECH loren ipusum \nTell your friends as well</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

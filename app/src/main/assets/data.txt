@@ -1,0 +1,806 @@
+{
+  "message": "Successfully got all feeds",
+  "data": [
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2436/profile-image/1536378653_600x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Nikhil Mangal",
+            "timelog": 1557463401222,
+            "company": "CoWrks",
+            "pkey": 2436
+          },
+          {
+            "image_loc": null,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Chirag ",
+            "timelog": 1557461959917,
+            "company": "CoWrks",
+            "pkey": 2125
+          },
+          {
+            "image_loc": null,
+            "city": "Hyderabad",
+            "center": "Skyview",
+            "name": "Trapti Bansal ",
+            "timelog": 1557460699614,
+            "company": "MTX IT Consulting Services Pvt. Ltd.",
+            "pkey": 7322
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557452691465,
+            "company": "CoWrks",
+            "pkey": 968
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1251/profile-image/1524807155_1600x1600.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Shweta Ramgadiya",
+            "timelog": 1557425528460,
+            "company": "CoWrks",
+            "pkey": 1251
+          }
+        ],
+        "comments": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "ckey": 66931,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557452931501,
+            "company": "CoWrks",
+            "pkey": 968,
+            "content": [
+              "",
+              "{\"name\":\"Raviteja\",\"pkey\":7390}",
+              " ",
+              "{\"name\":\"Arijit Das\",\"pkey\":7366}",
+              " Good to see you guys! "
+            ]
+          }
+        ],
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/8051/article-image/1557418812_600x600",
+        "city_name": "Hyderabad",
+        "akey": 1557418878038,
+        "center_name": "CoWrks Skyview",
+        "center_id": 16,
+        "timelog": 1557418812884,
+        "content": "Lenskart was here with a wide range of stylish frames and free eye check up campaign for members of Cowrks Skyview "
+      },
+      "creator": {
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/8051/profile-image/1557423239_557x900.jpg",
+        "city_name": "Bengaluru",
+        "center_name": "CoWrks Ecoworld",
+        "city": "Hyderabad",
+        "center": "CoWrks Skyview",
+        "name": "Suraj",
+        "company": "CoWrks",
+        "pkey": 8051
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/818/profile-image/1519105331_702x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Nihareeka Rode",
+            "timelog": 1557459825613,
+            "company": "CoWrks",
+            "pkey": 818
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/9129/profile-image/1557391728_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "CoWrks Ecoworld",
+            "name": "Smriti Anand",
+            "timelog": 1557415449830,
+            "company": "True Software Services India LLP",
+            "pkey": 9129
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557408510477,
+            "company": "CoWrks",
+            "pkey": 968
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2436/profile-image/1536378653_600x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Nikhil Mangal",
+            "timelog": 1557407097428,
+            "company": "CoWrks",
+            "pkey": 2436
+          }
+        ],
+        "comments": [],
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5295/article-image/1557402878_900x674.jpg",
+        "city_name": "Bengaluru",
+        "akey": 1557402943844,
+        "center_name": "CoWrks New Indiranagar",
+        "center_id": 2,
+        "timelog": 1557402878705,
+        "content": "#threemoredaysofbangalorehustle #nextstopsingapore #supportingnewglobalpartner #teaminfoeaze"
+      },
+      "creator": {
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5295/profile-image/1549369242_720x900.jpg",
+        "city_name": "Bengaluru",
+        "center_name": "New Indiranagar",
+        "city": "Bengaluru",
+        "center": "CoWrks New Indiranagar",
+        "name": "sandeep krishnappa",
+        "company": "Infoeaze",
+        "pkey": 5295
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/818/profile-image/1519105331_702x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Nihareeka Rode",
+            "timelog": 1557459838563,
+            "company": "CoWrks",
+            "pkey": 818
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/417/profile-image/1555333586_900x900.jpg",
+            "city": "Chennai",
+            "center": "OMR",
+            "name": "Deepika Bisht",
+            "timelog": 1557412677626,
+            "company": "CoWrks",
+            "pkey": 417
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1586/profile-image/1529405658_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Kriti Gupta",
+            "timelog": 1557411074916,
+            "company": "CoWrks",
+            "pkey": 1586
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1251/profile-image/1524807155_1600x1600.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Shweta Ramgadiya",
+            "timelog": 1557408520805,
+            "company": "CoWrks",
+            "pkey": 1251
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557408512689,
+            "company": "CoWrks",
+            "pkey": 968
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1043/profile-image/1554047460_640x640",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Karthick ",
+            "timelog": 1557401500475,
+            "company": "CoWrks",
+            "pkey": 1043
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2436/profile-image/1536378653_600x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Nikhil Mangal",
+            "timelog": 1557398273090,
+            "company": "CoWrks",
+            "pkey": 2436
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5993/profile-image/1555114230_720x896",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "chaitanya",
+            "timelog": 1557397649637,
+            "company": "CoWrks",
+            "pkey": 5993
+          }
+        ],
+        "comments": [],
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/8409/article-image/1557397624_900x900.jpg",
+        "city_name": "Chennai",
+        "akey": 1557397689911,
+        "center_name": "CoWrks OMR",
+        "center_id": 6,
+        "timelog": 1557397624729,
+        "content": "Members at OMR writing their love for their moms while we will convey these to them on Mother's day. "
+      },
+      "creator": {
+        "image_loc": null,
+        "city_name": "Bengaluru",
+        "center_name": "CoWrks Ecoworld",
+        "city": "Chennai",
+        "center": "CoWrks OMR",
+        "name": "Devarati Sarkar ",
+        "company": "CoWrks",
+        "pkey": 8409
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557408516001,
+            "company": "CoWrks",
+            "pkey": 968
+          },
+          {
+            "image_loc": null,
+            "city": "Gurgaon",
+            "center": "GCR",
+            "name": "Alok Kumar",
+            "timelog": 1557405395016,
+            "company": "Blue Whale Advisory Services Pvt. Ltd.",
+            "pkey": 2687
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2436/profile-image/1536378653_600x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Nikhil Mangal",
+            "timelog": 1557398277358,
+            "company": "CoWrks",
+            "pkey": 2436
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5993/profile-image/1555114230_720x896",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "chaitanya",
+            "timelog": 1557397653871,
+            "company": "CoWrks",
+            "pkey": 5993
+          }
+        ],
+        "comments": [],
+        "image_loc": null,
+        "city_name": "Chennai",
+        "akey": 1557397176995,
+        "center_name": "One Paramount",
+        "center_id": 3,
+        "timelog": 1557397111886,
+        "content": "We are conducting a walk-in drive for freshers on Saturday, May 11th at RMZ - Porur for BE-CSC, \nBTech -IT and MCA students. Preferably 2018 / 2019 batch.\nTell your friends as well. "
+      },
+      "creator": {
+        "image_loc": null,
+        "city_name": "Chennai",
+        "center_name": "One Paramount",
+        "city": "Chennai",
+        "center": "One Paramount",
+        "name": "shailaja ",
+        "company": "AciesInd Private Limited",
+        "pkey": 6708
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": null,
+            "city": "Bengaluru",
+            "center": "CoWrks Ecoworld",
+            "name": "Aashish",
+            "timelog": 1557416552506,
+            "company": "CoWrks",
+            "pkey": 8083
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5993/profile-image/1555114230_720x896",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "chaitanya",
+            "timelog": 1557410537335,
+            "company": "CoWrks",
+            "pkey": 5993
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557408519790,
+            "company": "CoWrks",
+            "pkey": 968
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2436/profile-image/1536378653_600x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Nikhil Mangal",
+            "timelog": 1557398291625,
+            "company": "CoWrks",
+            "pkey": 2436
+          }
+        ],
+        "comments": [],
+        "image_loc": null,
+        "city_name": "NCR",
+        "akey": 1557395358209,
+        "center_name": "CoWrks Golf Course Road",
+        "center_id": 7,
+        "timelog": 1557395293090,
+        "content": "We at Oswaal books are looking for someone to get 10-15 product explainer videos. Please connect with us at meenakshi@oswaalbooks.com"
+      },
+      "creator": {
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/3101/profile-image/1557395408_384x384",
+        "city_name": "Gurgaon",
+        "center_name": "GCR",
+        "city": "NCR",
+        "center": "CoWrks Golf Course Road",
+        "name": "Surya Pillai",
+        "company": "Naresh Jain",
+        "pkey": 3101
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": null,
+            "city": "Bengaluru",
+            "center": "CoWrks Ecoworld",
+            "name": "Aashish",
+            "timelog": 1557470761167,
+            "company": "CoWrks",
+            "pkey": 8083
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/9129/profile-image/1557391728_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "CoWrks Ecoworld",
+            "name": "Smriti Anand",
+            "timelog": 1557415475147,
+            "company": "True Software Services India LLP",
+            "pkey": 9129
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557408521597,
+            "company": "CoWrks",
+            "pkey": 968
+          }
+        ],
+        "comments": [],
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1825/article-image/1557395079_900x897.jpg",
+        "city_name": "NCR",
+        "akey": 1557395144562,
+        "center_name": "GCR",
+        "center_id": 7,
+        "timelog": 1557395079455,
+        "content": "We all love party.Entertaining shouldn’t be a chore, especially in summer. Stress-free planning comes from keeping things simple and sticking to the essentials.\n•\nUrStyleCoach has devised a party essentials check-list to help you on your way.\n•\nFor any queries please free to 📞 9810000799\n•\n#UrStyleCoach #NehaRakheja #CoachApproved #thursday"
+      },
+      "creator": {
+        "image_loc": null,
+        "city_name": "Gurgaon",
+        "center_name": "GCR",
+        "city": "NCR",
+        "center": "GCR",
+        "name": "Urstylecoach ",
+        "company": "UrStyleCoach",
+        "pkey": 1825
+      }
+    },
+    {
+      "article": {
+        "likes": [],
+        "comments": [],
+        "image_loc": null,
+        "city_name": "Bengaluru",
+        "akey": 1557390475529,
+        "center_name": "CoWrks Residency Road",
+        "center_id": 12,
+        "timelog": 1557390410413,
+        "content": "Ranveer singh"
+      },
+      "creator": {
+        "image_loc": null,
+        "city_name": "Bengaluru",
+        "center_name": "Residency Road",
+        "city": "Bengaluru",
+        "center": "CoWrks Residency Road",
+        "name": "Nayana Nandurkar",
+        "company": "APSAP Software Services Private Limited",
+        "pkey": 6934
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557408540186,
+            "company": "CoWrks",
+            "pkey": 968
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/875/profile-image/1536833409_900x899.jpg",
+            "city": "Bengaluru",
+            "center": "New Indiranagar",
+            "name": "Bharat Jaiswal",
+            "timelog": 1557406377944,
+            "company": "CoWrks",
+            "pkey": 875
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/420/profile-image/1523639480_861x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Bhagirathi Barua",
+            "timelog": 1557397398318,
+            "company": "CoWrks",
+            "pkey": 420
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1312/profile-image/1542791105_345x345.jpeg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Hafsa ",
+            "timelog": 1557394374105,
+            "company": "CoWrks",
+            "pkey": 1312
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5358/profile-image/1557289177_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "New Indiranagar",
+            "name": "samarth gupta",
+            "timelog": 1557390342547,
+            "company": "ADFG TECH INDIA PRIVATE LIMITED",
+            "pkey": 5358
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/180/profile-image/1515134483_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Mithun Purushothaman",
+            "timelog": 1557384133184,
+            "company": "Logesys Solutions India Pvt. Ltd",
+            "pkey": 180
+          },
+          {
+            "image_loc": null,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Chirag ",
+            "timelog": 1557382987922,
+            "company": "CoWrks",
+            "pkey": 2125
+          }
+        ],
+        "comments": [
+          {
+            "image_loc": null,
+            "ckey": 67164,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Chirag ",
+            "timelog": 1557383108181,
+            "company": "CoWrks",
+            "pkey": 2125,
+            "content": ["Ranveer singh"]
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2727/profile-image/1554693854_900x900.jpg",
+            "ckey": 67168,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Krithika Raghavan",
+            "timelog": 1557385659973,
+            "company": "CoWrks",
+            "pkey": 2727,
+            "content": [
+              "",
+              "{\"name\":\"sana khan \",\"pkey\":5520}",
+              ""
+            ]
+          },
+          {
+            "image_loc": null,
+            "ckey": 67073,
+            "city": "Chennai",
+            "center": "CoWrks One Paramount",
+            "name": "Mathuram",
+            "timelog": 1557387074120,
+            "company": "Mathuram Nallathambi",
+            "pkey": 7825,
+            "content": ["Ranveer as Kapil"]
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5520/profile-image/1557307700_900x900.jpg",
+            "ckey": 67037,
+            "city": "Bengaluru",
+            "center": "Whitefield",
+            "name": "sana khan ",
+            "timelog": 1557387238640,
+            "company": "Recrosoft Technologies Private Limited",
+            "pkey": 5520,
+            "content": ["Ranveer Singh."]
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/420/profile-image/1523639480_861x900.jpg",
+            "ckey": 67183,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Bhagirathi Barua",
+            "timelog": 1557389081417,
+            "company": "CoWrks",
+            "pkey": 420,
+            "content": [
+              "Raveer Singh"
+            ]
+          },
+          {
+            "image_loc": null,
+            "ckey": 67172,
+            "city": "Bengaluru",
+            "center": "Residency Road",
+            "name": "Neha Jain",
+            "timelog": 1557390629449,
+            "company": "APSAP Software Services Private Limited",
+            "pkey": 7636,
+            "content": ["Ranveer singh"]
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1584/profile-image/1542698245_555x900.jpg",
+            "ckey": 67174,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Anup Samal",
+            "timelog": 1557392669820,
+            "company": "CoWrks",
+            "pkey": 1584,
+            "content": ["Ranveer Singh"]
+          }
+        ],
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5358/article-image/1557380612_900x900.jpg",
+        "city_name": "Bengaluru",
+        "akey": 1557380677211,
+        "center_name": "CoWrks Residency Road",
+        "center_id": 12,
+        "timelog": 1557380612170,
+        "content": "#SwooCricket: Can you guess this Bollywood Actor?\n\nHe's playing a famous cricketer 🏏 in his upcoming movie which will be released in 2020.\n\nComment your answer below and tag those Mad Fans!\n\nDownload Swoo to Play Cricket Gunda. 🔗 in the Bio\n\n#Cricket #Swoo #SwooBollywood #BollywoodCelebs #IPL #CricketWorldCup2019 "
+      },
+      "creator": {
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5358/profile-image/1557289177_900x900.jpg",
+        "city_name": "Bengaluru",
+        "center_name": "New Indiranagar",
+        "city": "Bengaluru",
+        "center": "CoWrks Residency Road",
+        "name": "samarth gupta",
+        "company": "ADFG TECH INDIA PRIVATE LIMITED",
+        "pkey": 5358
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/417/profile-image/1555333586_900x900.jpg",
+            "city": "Chennai",
+            "center": "OMR",
+            "name": "Deepika Bisht",
+            "timelog": 1557412700250,
+            "company": "CoWrks",
+            "pkey": 417
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5993/profile-image/1555114230_720x896",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "chaitanya",
+            "timelog": 1557410561289,
+            "company": "CoWrks",
+            "pkey": 5993
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557408553037,
+            "company": "CoWrks",
+            "pkey": 968
+          }
+        ],
+        "comments": [],
+        "image_loc": null,
+        "city_name": "Chennai",
+        "akey": 1557379282408,
+        "center_name": "CoWrks OMR",
+        "center_id": 6,
+        "timelog": 1557379217342,
+        "content": "Three important factors are at play in the current stock market scenario- Earnings slowdown of Indian companies, Uncertainty on account of elections and Global tensions because of US- China trade war. While these will present new buying opportunities, there will be some value erosion on existing investments. If your buying decisions are based on building a portfolio for the long term, no cause for concern. But if you are buying for short term gains, you have to tread very carefully. You can reach out to anand@koshavruddhi.com or call/WhatsApp +919789065350 for any investment guidance or portfolio review."
+      },
+      "creator": {
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1531/profile-image/1535972312_413x531",
+        "city_name": "Chennai",
+        "center_name": "OMR",
+        "city": "Chennai",
+        "center": "CoWrks OMR",
+        "name": "Anand Krishnan",
+        "company": "Koshavrudhi",
+        "pkey": 1531
+      }
+    },
+    {
+      "article": {
+        "likes": [
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/6318/profile-image/1554746222_550x621.jpg",
+            "city": "Mumbai",
+            "center": "Worli",
+            "name": "Shreshtha Poddar",
+            "timelog": 1557423627435,
+            "company": "M/s Shruti Rossett",
+            "pkey": 6318
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1586/profile-image/1529405658_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Kriti Gupta",
+            "timelog": 1557411184246,
+            "company": "CoWrks",
+            "pkey": 1586
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5295/profile-image/1549369242_720x900.jpg",
+            "city": "Bengaluru",
+            "center": "New Indiranagar",
+            "name": "sandeep krishnappa",
+            "timelog": 1557402937013,
+            "company": "Infoeaze",
+            "pkey": 5295
+          },
+          {
+            "image_loc": null,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Chirag ",
+            "timelog": 1557383028278,
+            "company": "CoWrks",
+            "pkey": 2125
+          },
+          {
+            "image_loc": null,
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Mir Najamul Hassan",
+            "timelog": 1557379499435,
+            "company": "CoWrks",
+            "pkey": 511
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2407/profile-image/1554969587_559x661",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Sonali Daru",
+            "timelog": 1557376822589,
+            "company": "CoWrks",
+            "pkey": 2407
+          },
+          {
+            "image_loc": null,
+            "city": "Bengaluru",
+            "center": "CoWrks Residency Road",
+            "name": "Sienam Lulla",
+            "timelog": 1557374707145,
+            "company": "Sienam Lulla",
+            "pkey": 7675
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5993/profile-image/1555114230_720x896",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "chaitanya",
+            "timelog": 1557368391427,
+            "company": "CoWrks",
+            "pkey": 5993
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/8686/profile-image/1556781231_515x515.jpg",
+            "city": "Bengaluru",
+            "center": "CoWrks Residency Road",
+            "name": "Vysakh Madhavan",
+            "timelog": 1557363340217,
+            "company": "Nomura Research Institute Consulting and Solutions India Pvt. Ltd.",
+            "pkey": 8686
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/621/profile-image/1518669482_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Teresa Debbarma",
+            "timelog": 1557330313344,
+            "company": "CoWrks",
+            "pkey": 621
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/1251/profile-image/1524807155_1600x1600.jpg",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Shweta Ramgadiya",
+            "timelog": 1557330020004,
+            "company": "CoWrks",
+            "pkey": 1251
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/968/profile-image/1530763372_720x725",
+            "city": "Bengaluru",
+            "center": "Ecoworld",
+            "name": "Atul Bisht",
+            "timelog": 1557326880335,
+            "company": "CoWrks",
+            "pkey": 968
+          },
+          {
+            "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/5358/profile-image/1557289177_900x900.jpg",
+            "city": "Bengaluru",
+            "center": "New Indiranagar",
+            "name": "samarth gupta",
+            "timelog": 1557326568880,
+            "company": "ADFG TECH INDIA PRIVATE LIMITED",
+            "pkey": 5358
+          }
+        ],
+        "comments": [],
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2408/article-image/1557322172_900x900.jpg",
+        "city_name": "Bengaluru",
+        "akey": 1557322237575,
+        "center_name": "CoWrks Residency Road",
+        "center_id": 12,
+        "timelog": 1557322172477,
+        "content": "Yoga means addition- addition of energy, strength and beauty to the body, mind and soul. Today’s session at RR 🧘‍♀️ 🧘‍♂️ "
+      },
+      "creator": {
+        "image_loc": "https://s3.ap-south-1.amazonaws.com/cdn.cowrks.com/member-profile/2408/profile-image/1543899230_675x900.jpg",
+        "city_name": "Bengaluru",
+        "center_name": "Ecoworld",
+        "city": "Bengaluru",
+        "center": "CoWrks Residency Road",
+        "name": "Neha Giri",
+        "company": "CoWrks",
+        "pkey": 2408
+      }
+    }
+  ],
+  "status": true
+}
