@@ -18,4 +18,14 @@
 
     </style>
 
+    <style name="CustomTextAppearance">
+        <item name="fontPath">fonts/avenir-next-regular.ttf</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Bold" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/avenir-next-bold.ttf</item>
+        <item name="android:textColor">@color/colorBlack</item>
+
+    </style>
+
 </resources>

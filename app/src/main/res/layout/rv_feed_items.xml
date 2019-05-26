@@ -37,6 +37,8 @@
                 tools:text="shailaja"
                 android:textColor="@color/colorBlack"
                 android:textSize="16sp"
+                android:textAppearance="@style/AppTheme.TextAppearance.Bold"
+
                 android:textStyle="bold"/>
 
             <TextView

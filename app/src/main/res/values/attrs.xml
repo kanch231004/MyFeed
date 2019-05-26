@@ -9,4 +9,7 @@
         <attr name="civ_shadow_color" format="color"/>
         <attr name="civ_shadow_radius" format="float"/>
     </declare-styleable>
+
+    <attr format="string" name="fontPath"/>
+    <item name="calligraphy_tag_id" type="id"/>
 </resources>
