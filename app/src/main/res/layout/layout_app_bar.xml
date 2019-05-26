@@ -24,11 +24,13 @@
         android:background="@drawable/border_round"
         android:text="Cowrks Pvt Ltd, Bengaluru"
         android:gravity="center"
+        android:layout_gravity="center_vertical"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:padding="4dp"
+        android:layout_marginStart="64dp"
+
         android:drawableStart="@drawable/ic_location_on_black_24dp"
-        android:layout_gravity="center"
         android:textColor="@color/colorWhite"/>
 
   </FrameLayout>
