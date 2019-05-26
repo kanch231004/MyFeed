@@ -20,5 +20,16 @@
 
     <include layout="@layout/layout_bottom_nav_bar"/>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        android:src="@drawable/ic_border_color_black_24dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="@color/colorBlackTrans"
+        android:layout_marginEnd="16dp"
+        />
+
 
 </FrameLayout>
