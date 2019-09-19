@@ -5,9 +5,10 @@ import androidx.paging.Config
 import androidx.paging.toLiveData
 import com.cnx.myfeed.data.FeedRepository
 
-class MyFeedViewModel internal  constructor(feedRepository: FeedRepository): ViewModel() {
+class MyFeedViewModel internal constructor(feedRepository: FeedRepository): ViewModel() {
+
 
 
    val feeds  = feedRepository.getFeeds()
-      .toLiveData(Config(4,enablePlaceholders = true,maxSize = 20, prefetchDistance = 2,initialLoadSizeHint = 4))
+      .toLiveData(Config(4, enablePlaceholders = true, maxSize = 20, prefetchDistance = 2,initialLoadSizeHint = 4))
 }

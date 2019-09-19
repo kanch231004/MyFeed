@@ -5,21 +5,27 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
+import com.cnx.myfeed.databinding.RvFeedItemsBinding
 import com.cnx.myfeed.models.Feed
 
-class FeedAdapter() : PagedListAdapter<Feed,FeedViewHolder>(diffCallback) {
+class FeedAdapter : PagedListAdapter<Feed,FeedViewHolder>(diffCallback) {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FeedViewHolder {
 
-       val view =LayoutInflater.from(parent.context).inflate(R.layout.rv_feed_items, parent, false)
-        return FeedViewHolder(view)
+        return FeedViewHolder(RvFeedItemsBinding.inflate(LayoutInflater.from(parent.context),parent,false))
     }
 
     override fun onBindViewHolder(holder: FeedViewHolder, position: Int) {
 
         Log.e("FeedAdapter","current items $currentList")
-        holder.bind(getItem(position))
+
+        val feed = getItem(position)
+        holder.apply {
+            bind(feed)
+            itemView.tag = feed
+        }
+
     }
 
     companion object {

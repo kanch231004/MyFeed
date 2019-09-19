@@ -1,32 +1,37 @@
 package com.cnx.myfeed
 
-import android.view.View
+import android.util.Log
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.cnx.myfeed.extensions.getTimeStamp
+import com.cnx.myfeed.databinding.RvFeedItemsBinding
 import com.cnx.myfeed.models.Feed
-import kotlinx.android.synthetic.main.rv_feed_items.view.*
 
-class FeedViewHolder(itemView : View) : RecyclerView.ViewHolder( itemView ) {
+class FeedViewHolder(private val binding : RvFeedItemsBinding) : RecyclerView.ViewHolder( binding.root ) {
 
-    fun bind(feed : Feed?) {
+    fun bind(item : Feed?) {
 
-        with(itemView) {
+        Log.d("FeedVH", "  bind method called")
+        binding.apply {
+
+            feed = item
+            executePendingBindings()
+        }
+
+       /* with(itemView) {
 
 
-            tvLocation.text = "${feed?.creator?.centerName}, ${feed?.creator?.cityName}"
-            tvName.text = feed?.creator?.name
-            tvDescription.text = feed?.article?.content
+          //  tvLocation.text = "${feed?.creator?.centerName}, ${feed?.creator?.cityName}"
+          //  tvName.text = feed?.creator?.name
+         //   tvDescription.text = feed?.article?.content
             tvNoOfLikes.text = feed?.article?.likes?.size.toString()+" Likes"
-            tvOrganisation.text = feed?.creator?.company
-            tvTime.text = getTimeStamp(feed?.article?.timelog ?: 0L)
-            Glide.with(itemView).load(feed?.creator?.imageLoc).placeholder(R.drawable.image_dummy).into(civProfile)
-            Glide.with(itemView).load(feed?.article?.imageLoc).into(ivArticle)
+          //  tvOrganisation.text = feed?.creator?.company
+          //  tvTime.text = getTimeStamp(feed?.article?.timelog ?: 0L)
+         //   Glide.with(itemView).load(feed?.creator?.imageLoc).placeholder(R.drawable.image_dummy).into(civProfile)
+         //   Glide.with(itemView).load(feed?.article?.imageLoc).into(ivArticle)
 
             tvDescription.setOnClickListener { tvDescription.maxLines = Int.MAX_VALUE }
 
 
-        }
+        }*/
     }
 
 }

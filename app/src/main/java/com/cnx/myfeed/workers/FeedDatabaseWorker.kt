@@ -23,6 +23,7 @@ class FeedDatabaseWorker(
     override suspend fun doWork(): Result = coroutineScope {
 
         try {
+
             applicationContext.assets.open(FEED_DATA_FILENAME).use { inputStream ->
                 JsonReader(inputStream.reader()).use { jsonReader ->
 

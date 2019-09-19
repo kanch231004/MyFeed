@@ -11,7 +11,9 @@ class FeedRepository private constructor(private val feedDao: FeedDao) {
         @Volatile private var instance: FeedRepository? = null
 
         fun getInstance(feedDao: FeedDao) =
+
             instance ?: synchronized(this) {
+
                 instance ?: FeedRepository(feedDao).also { instance = it }
             }
     }

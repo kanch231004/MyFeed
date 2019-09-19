@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="feed"
+            type="com.cnx.myfeed.models.Feed" />
+
+    </data>
+
+<androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:layout_margin="8dp">
 
     <RelativeLayout android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -37,6 +50,7 @@
                 tools:text="shailaja"
                 android:textColor="@color/colorBlack"
                 android:textSize="16sp"
+                android:text="@{feed.creator.name}"
                 android:textAppearance="@style/AppTheme.TextAppearance.Bold"
 
                 android:textStyle="bold"/>
@@ -46,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvOrganisation"
                 android:textSize="14sp"
+                android:text="@{feed.creator.company}"
                 tools:text="Accenture Pvt Ltd"/>
 
 
@@ -69,6 +84,7 @@
             style="@style/TextViewStyle"
             android:maxLines="4"
             android:ellipsize="end"
+            android:text="@{feed.article.content}"
             tools:text="@string/dummy_string"/>
 
         <ImageView
@@ -136,6 +152,7 @@
                 android:layout_centerVertical="true"
                 android:textColor="@color/textGray"
                 android:textSize="14sp"
+                android:text="@{feed.creator.centerName}"
                 android:layout_alignParentEnd="true"
                 android:id="@+id/tvLocation"/>
         </RelativeLayout>
@@ -143,3 +160,5 @@
 
 
 </androidx.cardview.widget.CardView>
+
+</layout>

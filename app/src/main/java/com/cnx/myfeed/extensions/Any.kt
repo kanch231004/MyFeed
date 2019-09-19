@@ -22,3 +22,4 @@ fun getTimeStamp(time : Long) : String {
         else -> "${diff / DAY_MILLIS} days ago"
     }
 }
+

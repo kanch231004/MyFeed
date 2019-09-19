@@ -9,17 +9,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.cnx.myfeed.FeedAdapter
-import com.cnx.myfeed.R
+import com.cnx.myfeed.databinding.FragmentStreamBinding
 import com.cnx.myfeed.utilities.InjectorUtils
 import com.cnx.myfeed.viewModels.MyFeedViewModel
-import kotlinx.android.synthetic.main.fragment_stream.*
 
 
 class StreamFragment : Fragment() {
 
-    val feedAdapter = FeedAdapter()
 
     private val viewModel: MyFeedViewModel by viewModels {
         InjectorUtils.provideFeedViewModelFactory(context!!)
@@ -32,23 +29,16 @@ class StreamFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         Log.d("onCreateVeiw Stream","called")
 
-        val view =inflater.inflate(R.layout.fragment_stream, container, false)
+        val binding  = FragmentStreamBinding.inflate(inflater,container,false)
+        context ?: return binding.root
+        val adapter = FeedAdapter()
+        binding.rvFeed.adapter = adapter
+        subscribeUI(adapter)
 
-
-
-        return view
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        Log.d("onViewCreated","called")
-        rvFeed.layoutManager = LinearLayoutManager(context!!)
-        rvFeed.adapter = feedAdapter
-
-
-
+        return binding.root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -59,17 +49,24 @@ class StreamFragment : Fragment() {
 
     }
 
-    override fun onResume() {
-        super.onResume()
+    private fun subscribeUI(adapter: FeedAdapter) {
 
         viewModel.feeds.observe(this, Observer { feeds ->
 
             Log.d("mainactivity","${feeds.loadedCount}")
 
-            feedAdapter.submitList(feeds)
+            adapter.submitList(feeds)
         })
 
-        feedAdapter.notifyDataSetChanged()
+        adapter.notifyDataSetChanged()
+
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+
     }
 
 
