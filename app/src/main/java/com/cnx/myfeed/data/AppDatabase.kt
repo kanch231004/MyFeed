@@ -19,7 +19,7 @@ import com.cnx.myfeed.workers.FeedDatabaseWorker
 @Database(entities = [Feed::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class, ListConverter::class, CommentsConverter::class)
 abstract class AppDatabase : RoomDatabase() {
-    //abstract fun gardenPlantingDao(): GardenPlantingDao
+
     abstract fun feedDao(): FeedDao
 
     companion object {

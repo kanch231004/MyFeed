@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/border_round"
-        android:text="Cowrks Pvt Ltd, Bengaluru"
+        android:text="@string/minacle_pvt_ltd_bengaluru"
         android:gravity="center"
         android:layout_gravity="center_vertical"
         android:paddingStart="20dp"
